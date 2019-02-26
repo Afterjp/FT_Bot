@@ -25,7 +25,7 @@ public class Main
 	public static void main(String[] args)
 	{
         Main main = new Main();
-        client = new ClientBuilder().withToken("NTQwODcyMDMzOTM3MTI5NDcy.DzXOUw.Bp-dqsFOe3Ak-elPOxhPPHU8sdQ").build();
+        client = new ClientBuilder().withToken("").build();
         client.getDispatcher().registerListener(main);
         client.login();
 	}
